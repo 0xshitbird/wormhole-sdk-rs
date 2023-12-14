@@ -12,16 +12,16 @@ repository.workspace = true
 
 [dependencies]
 alloy-primitives.workspace = true
-async-trait = "0.1.72"
-base64 = "0.21.2"
-hex = "0.4.3"
-reqwest = { version = "0.11.18", features = ["json"] }
+async-trait = "0.1"
+base64 = "0.21"
+hex = "0.4"
+reqwest = { version = "0.11", features = ["json"] }
 serde.workspace = true
 serde_json.workspace = true
-thiserror = "1.0.44"
-tracing = "0.1.37"
-tracing-futures = "0.2.5"
-uuid = { version = "1.4.1", features = ["v4"] }
+thiserror = "1"
+tracing = "0.1"
+tracing-futures = "0.2"
+uuid = { version = "1", features = ["v4"] }
 
 wormhole-vaas = { workspace = true, features = ["serde"] }
 
